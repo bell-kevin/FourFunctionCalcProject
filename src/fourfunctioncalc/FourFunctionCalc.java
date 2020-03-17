@@ -46,7 +46,8 @@ public class FourFunctionCalc {
     } //end multiply
     
     public static double divide(int num1, int num2) {
-        return num1 / num2;
+        return (double) num1 / num2; //cast to double to force floating point division
     } //end divide
         
 } //end class FourFunctionCalc
+
