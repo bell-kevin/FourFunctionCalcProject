@@ -63,6 +63,5 @@ public class FourFunctionCalcTest {
         assertEquals(0.68, FourFunctionCalc.divide(68, 99), .01); //test case 8
         assertEquals(0.31, FourFunctionCalc.divide(24, 76), .01); //test case 9
         assertEquals(3.16, FourFunctionCalc.divide(76, 24), .01); //test case 10
-    } //end testDivide
-    
+    } //end testDivide 
 } //end class FourFunctionCalcTest
